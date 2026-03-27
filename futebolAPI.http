@@ -1,0 +1,10 @@
+@futebolAPI_HostAddress = http://localhost:5291
+
+GET {{futebolAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET https://v3.football.api-sports.io/teams?search=Vasco
+x-apisports-key: d91740fe81f4873caf425e26484be9b3
+Accept: application/json
